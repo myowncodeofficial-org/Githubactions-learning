@@ -13,9 +13,12 @@ jobs:
         steps:
             - name: Show OS
               shell: bash
-              run: |
-                echo "This job is running on windows runner"
-                echo "Runner OS: $RUNNER_OS"
+              run: echo "This job is running on windows runner"
+            - name: multiline
+              shell: bash
+              run: echo "Runner OS $RUNNER_OS"
+                
+                # ver
     Mac-echo:
         runs-on: macos-latest
         steps:
