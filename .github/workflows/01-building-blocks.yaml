@@ -10,6 +10,8 @@ jobs:
         runs-on: ubutu-latest
         steps:
             - name: Fails step
-              run: echo "I will fail"
+              run: |
+                echo "I will fail"
+                exit 0
             - name: Say goodbye
               run: echo "Goodbye!"
