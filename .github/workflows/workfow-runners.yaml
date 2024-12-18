@@ -14,11 +14,11 @@ jobs:
             - name: Show OS
               run: |
                 echo "This job is running on windows runner"
-                ver
+                $RUNNER_OS
     Mac-echo:
         runs-on: macos-latest
         steps:
             - name: Show OS
               run: |
                 echo "This job is running on macos runner"
-                sw-ver
+                sw_vers
