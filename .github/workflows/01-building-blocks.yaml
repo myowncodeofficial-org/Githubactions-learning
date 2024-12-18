@@ -7,7 +7,7 @@ jobs:
             - name: hello
               run: echo "Hello,World!"
     echo-goodbye:
-        runs-on: ubutu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Fails step
               run: |
