@@ -1,0 +1,11 @@
+name: commitid-branch-identification
+on: [push, pull_request, issues]
+jobs:
+    commitid-branch:
+        runs-on: ubuntu-lattest
+        steps:
+            - name: commitid-branch-details
+              uses: actions/chechout@v4
+            - run: |
+                echo $GITHUB_SHA
+                echo $GITHUB_REF
