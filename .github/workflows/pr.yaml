@@ -1,0 +1,13 @@
+name: pr-workflows
+on:
+    push:
+    pull_request:
+        types:
+            - opened
+            - closed
+jobs:
+    pr-actions-workflow:
+        runs-on: ubutu-latest
+        steps:
+            - name: workflow run
+              run: echo "workflow is running"
