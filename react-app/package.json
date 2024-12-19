@@ -1,5 +1,6 @@
 {
   "name": "react-app",
+  "homepage": "https://myowncodeofficial-org.github.io/Githubactions-learning",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
