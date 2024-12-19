@@ -1,9 +1,8 @@
 name: commitid-branch-identification
 on:
     workflow_run:
-        workflows: Workflow Runners
-        types: 
-            - completed
+        workflows: [Workflow Runners]
+        types: completed
 jobs:
     commitid-branch:
         runs-on: ubuntu-latest
