@@ -1,7 +1,7 @@
 name: commitid-branch-identification
 on:
     workflow_run:
-        workflows: ["workflow-runners.yaml"]
+        workflows: [workfow-runners.yaml]
         types: 
             - completed
 jobs:
