@@ -2,7 +2,7 @@ name: commitid-branch-identification
 on: [push, pull_request, issues]
 jobs:
     commitid-branch:
-        runs-on: ubuntu-lattest
+        runs-on: ubuntu-latest
         steps:
             - name: commitid-branch-details
               uses: actions/chechout@v4
