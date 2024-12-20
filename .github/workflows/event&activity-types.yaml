@@ -9,4 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: print
-              run: "running"
+              run: "Running whenever a PR is opened or synchronized and base branch is main"
