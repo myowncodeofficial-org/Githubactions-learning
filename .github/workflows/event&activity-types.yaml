@@ -9,4 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: print
-              run: "running"
+              run: echo "running"
