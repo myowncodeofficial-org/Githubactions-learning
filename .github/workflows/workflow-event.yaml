@@ -5,4 +5,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: enent-type
-              run: echo "on.<push>.types"
+              run: echo "$on.<push>.types"
