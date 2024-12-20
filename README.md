@@ -1,2 +1,2 @@
 ﻿# Githubactions-learning
-changing the file
+ whenever a PR is opened or synchronized and base branch is main
