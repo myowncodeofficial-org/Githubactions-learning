@@ -1,0 +1,12 @@
+name: Event filters & activity types
+on:
+    pull_request:
+        types: [opened, synchronize]
+        branches:
+            - "main"
+jobs:
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print
+              run: "running"
