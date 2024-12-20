@@ -1,8 +1,11 @@
 name: workflow-event
-on: [push]
+on:
+    push:
+    pull_request:
+    workflow_dispatch:
 jobs:
     echo:
         runs-on: ubuntu-latest
         steps:
             - name: enent-type
-              run: echo "$on.<push>.types"
+              run: echo "${{github.event_name}}"
